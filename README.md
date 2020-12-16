@@ -23,7 +23,7 @@ The other values can be found on your Auth0 profile after completing the pre-hom
 
 > *NOTE: Don't include quotes in the `.env` file. If you're having trouble creating a connection with your DB in Google Cloud, try inputting the values directly into the `connection.js` file.*
 
-4. Navigate to the `sql/connections.js` file and confirm you under stand why the fields are using `process.env.SOMETHING`. Where are they coming from?
+4. Navigate to the `sql/connection.js` file and confirm you understand why the fields are using `process.env.SOMETHING`. Where are they coming from?
 
 ```js
     host: process.env.DB_HOST,
